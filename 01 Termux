@@ -1,0 +1,11 @@
+# Install from F-Droid or GitHub!
+
+# pkg upgrade
+Mark YES for all changes
+
+# pkg install root-repo
+# pkg install proot-distro
+# pkg install sudo
+# pkg install arp-scan
+# pkg install wget
+# pkg install openssh
