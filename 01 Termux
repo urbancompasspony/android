@@ -9,4 +9,4 @@ Mark YES for all changes
 # pkg install arp-scan
 # pkg install wget
 # pkg install openssh
-# pkg install qemu-user-aarch64 qemu-user-arm qemu-user-i386 qemu-user-x86-64
+# pkg install qemu-user-aarch64 qemu-user-arm qemu-user-i386 qemu-user-x86-64 qemu-utils qemu-common qemu-system-x86_64-headless
