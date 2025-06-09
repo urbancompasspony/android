@@ -8,3 +8,8 @@ Mark YES for all changes
 # pkg install qemu-user-aarch64 qemu-user-arm qemu-user-i386 qemu-user-x86-64 qemu-utils qemu-common qemu-system-x86_64-headless
 
 bash <(curl -s https://raw.githubusercontent.com/Aj-Seven/Android-Sysinfo/master/sys-install)
+
+nano sysinfo
+curl -sSL https://raw.githubusercontent.com/Aj-Seven/Android-Sysinfo/refs/heads/master/sysinfo > sysinfo
+./sysinfo
+
