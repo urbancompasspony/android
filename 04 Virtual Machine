@@ -11,7 +11,7 @@ wget http://dl-cdn.alpinelinux.org/alpine/v3.12/releases/x86_64/alpine-virt-3.12
 
 qemu-img create -f qcow2 alpine.img 4G
 
-qemu-system-x86_64 -machine q35 -m 2048 -smp cpus=8 -cpu qemu64 \
+qemu-system-x86_64 -machine q35 -m 1536 -smp cpus=8 -cpu qemu64 \
   -drive if=pflash,format=raw,read-only=on,file=$PREFIX/share/qemu/edk2-x86_64-code.fd \
   -netdev user,id=n1,hostfwd=tcp::2222-:22 -device virtio-net,netdev=n1 \
   -cdrom alpine-virt-3.12.3-x86_64.iso \
@@ -28,7 +28,7 @@ setup-alpine -f answerfile
 
 poweroff
 
-qemu-system-x86_64 -machine q35 -m 2048 -smp cpus=8 -cpu qemu64 \
+qemu-system-x86_64 -machine q35 -m 1536 -smp cpus=8 -cpu qemu64 \
   -drive if=pflash,format=raw,read-only=on,file=$PREFIX/share/qemu/edk2-x86_64-code.fd \
   -netdev user,id=n1,hostfwd=tcp::2222-:22 -device virtio-net,netdev=n1 \
   -nographic alpine.img
