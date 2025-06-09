@@ -3,7 +3,8 @@
 # pkg upgrade
 Mark YES for all changes
 
-# pkg install root-repo x11-repo proot-distro sudo arp-scan wget git openssh busybox htop docker net-tools iperf3 whois traceroute inxi openvpn curl nmap lz4 cmatrix
+# pkg install root-repo x11-repo proot-distro sudo arp-scan wget git openssh busybox htop docker net-tools iperf3 whois traceroute inxi openvpn curl nmap lz4 cmatrix yq
 
 # pkg install qemu-user-aarch64 qemu-user-arm qemu-user-i386 qemu-user-x86-64 qemu-utils qemu-common qemu-system-x86_64-headless
 
+bash <(curl -s https://raw.githubusercontent.com/Aj-Seven/Android-Sysinfo/master/sys-install)
