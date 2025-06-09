@@ -35,7 +35,11 @@ qemu-system-x86_64 -machine q35 -m 1536 -smp cpus=8 -cpu qemu64 \
 
 apk update && apk add docker
 rc-update add docker
-service docker start
+
+service dockerd start
+service containerd start
+containerd
+dockerd
 
 Ctrl+a x: quit emulation
 Ctrl+a h: toggle QEMU console
