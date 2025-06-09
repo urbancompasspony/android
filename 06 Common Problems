@@ -1,0 +1,5 @@
+ERROR:
+Get https://registry-1.docker.io/v2/: net/http: TLS handshake timeout.
+
+IMAGE=hello-world:latest
+docker pull $IMAGE || docker pull $IMAGE ||  docker pull $IMAGE || docker pull $IMAGE
