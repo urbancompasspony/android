@@ -1,15 +1,16 @@
 
 Download and Install the PiDeploy APK
-Tap the Options menu (Three dots ⋮ at top right of screen)
-Tap New Deployment
-
-IF ARM32 (Redmi 9) change to raspbian32.tar.gz
+Tap SETTINGS, if ARM32 (Redmi 9) change to raspbian32.tar.gz
 DO NOT CHANGE PATH!
+
+Tap CONFIGURE
+Tap STOP
+Tap INSTALL
 
 After a few moments the Raspbian Image will download and install to your device.
 When deployment is complete, tap [ ▷ START ] to launch the instance.
-The instance will provide you with a password for Pi-hole admin, SSH and RDP access (Username: android, see screenshot below)
 
+The instance will provide you with a password for Pi-hole admin, SSH and RDP access (Username: android, see screenshot below)
 Note: The password appears only once when the image is deployed, make sure you record this information.
 Hint: The password text can be copy/pasted to other Android apps (like Remote Desktop)
 
