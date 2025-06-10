@@ -42,7 +42,9 @@ For Nextcloud 27, run pideploy-nextcloud-install to launch the patched Nextcloud
 PiHole will change to :8080
 $ pideploy-nextcloud-install
 
-First: Visit https://your_IP/activate/  https://nextcloudpi.local/ (also https://nextcloudpi.lan/ or https://nextcloudpi/ on windows and mac) to activate your instance of NC, and save the auto generated passwords.
+First: Visit http://your_IP (NOT SSL! Let NC redirect you.)
+or https://nextcloudpi.local/ (also https://nextcloudpi.lan/ or https://nextcloudpi/ on windows and mac)
+to activate your instance of NC, and save the auto generated passwords.
 
 Further config:
 $ sudo ncp-config
