@@ -18,7 +18,10 @@ Login SSH!
 $ passwd
 $ sudo nano /etc/hosts; add
 127.0.1.1 cattail (hostname here)
-$ sudo apt install btop
+$ sudo apt install btop inxi
+
+# Install bash:
+curl -sSL https://raw.githubusercontent.com/urbancompasspony/bashrc/main/install.sh | bash
 
 And change SYSTEM and PIHOLE passwords
 $ pihole setpasswd
