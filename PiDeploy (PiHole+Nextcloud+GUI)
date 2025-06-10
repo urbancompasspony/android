@@ -16,7 +16,9 @@ Hint: The password text can be copy/pasted to other Android apps (like Remote De
 
 Login SSH!
 $ passwd
-sudo apt install btop
+$ sudo nano /etc/hosts; add
+127.0.1.1 cattail (hostname here)
+$ sudo apt install btop
 
 And change SYSTEM and PIHOLE passwords
 $ pihole setpasswd
