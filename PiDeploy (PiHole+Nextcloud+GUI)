@@ -4,6 +4,7 @@ Tap the Options menu (Three dots ⋮ at top right of screen)
 Tap New Deployment
 
 IF ARM32 (Redmi 9) change to raspbian32.tar.gz
+DO NOT CHANGE PATH!
 
 After a few moments the Raspbian Image will download and install to your device.
 When deployment is complete, tap [ ▷ START ] to launch the instance.
