@@ -14,8 +14,11 @@ The instance will provide you with a password for Pi-hole admin, SSH and RDP acc
 Note: The password appears only once when the image is deployed, make sure you record this information.
 Hint: The password text can be copy/pasted to other Android apps (like Remote Desktop)
 
-Login SSH and change SYSTEM and PIHOLE passwords!
+Login SSH!
 $ passwd
+sudo apt install btop
+
+And change SYSTEM and PIHOLE passwords
 $ pihole setpasswd
 
 To install PIXEL Desktop, run pideploy-gui-install. Next time you login via RDP you will have a full desktop session with audio support.
@@ -31,9 +34,6 @@ PiHole will change to :8080
 $ pideploy-nextcloud-install
 
 First: Visit https://your_IP/activate/  https://nextcloudpi.local/ (also https://nextcloudpi.lan/ or https://nextcloudpi/ on windows and mac) to activate your instance of NC, and save the auto generated passwords.
-AFTER THIS you may review or reset them anytime by using:
-$ nc-admin
-$ nc-passwd.
 
 Further config:
 $ sudo ncp-config
