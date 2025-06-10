@@ -10,8 +10,10 @@ Note: The password appears only once when the image is deployed, make sure you r
 Hint: The password text can be copy/pasted to other Android apps (like Remote Desktop)
 
 To install PIXEL Desktop, run pideploy-gui-install. Next time you login via RDP you will have a full desktop session with audio support.
+$ pideploy-gui-install
 
 For Nextcloud 27, run pideploy-nextcloud-install to launch the patched Nextcloudpi installer.
 PiHole will change to :8080
+$ pideploy-nextcloud-install
 
 FROM: https://github.com/DesktopECHO/Pi-hole-for-Android
