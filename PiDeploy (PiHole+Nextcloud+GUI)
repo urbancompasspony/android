@@ -23,10 +23,10 @@ $ pihole setpasswd
 
 DO NOT RESTORE ANY TELEPORTER FROM OTHER PIHOLES! It will break the system.
 Import all the lists needed and set configurations manually.
+
 But if you did it, do:
 $ sudo pihole -r
-Login back to webUI.
-Reconfigure nextcloud...
+Login back to webUI... but nextcloud will not work anymore.
 
 To install PIXEL Desktop, run pideploy-gui-install. Next time you login via RDP you will have a full desktop session with audio support.
 $ pideploy-gui-install
