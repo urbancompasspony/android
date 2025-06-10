@@ -21,6 +21,11 @@ $ pihole setpasswd
 To install PIXEL Desktop, run pideploy-gui-install. Next time you login via RDP you will have a full desktop session with audio support.
 $ pideploy-gui-install
 
+$ exit
+STOP system!
+Start again.
+Login SSH again.
+
 For Nextcloud 27, run pideploy-nextcloud-install to launch the patched Nextcloudpi installer.
 PiHole will change to :8080
 $ pideploy-nextcloud-install
