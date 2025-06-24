@@ -18,6 +18,7 @@ Login SSH!
 $ passwd
 $ sudo nano /etc/hosts; add
 127.0.1.1 cattail (hostname here)
+$ sudo apt update; sudo apt upgrade
 $ sudo apt install btop inxi
 
 # Install bash:
