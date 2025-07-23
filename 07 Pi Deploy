@@ -8,8 +8,8 @@ CONFIGURATIONS of app, check UPDATE ENV if it is ok!
 
 Tap SETTINGS
 - For ARM32 (Redmi 9) change mirror to raspbian32.tgz
-- Installation Type: DIRECTORY
-Set image name: ./raspbian-custom.img
+- Installation Type: ARQUIVO
+Set image name: ./raspbian-custom
 user: android / Senha: change if needed
 
 Tap CONFIGURE
@@ -35,13 +35,7 @@ $ sudo nano /etc/hosts; add
 ###########################
 # # # DEFAULT INSTALL # # #
 ###########################
-# For PiHole + Nextcloud
-
-$ sudo apt update; sudo apt upgrade
-$ sudo apt install btop inxi
-
-# Install bash:
-curl -sSL https://raw.githubusercontent.com/urbancompasspony/bashrc/main/install.sh | bash
+# For PiHole Only
 
 And change SYSTEM and PIHOLE passwords
 $ pihole setpasswd PASS
@@ -52,6 +46,11 @@ Import all the lists needed and set configurations manually.
 But if you did it, do:
 $ sudo pihole -r
 Login back to webUI... but nextcloud will not work anymore.
+
+###########################
+# # # DEFAULT INSTALL # # #
+###########################
+# For PiHole, Nextcloud + Pixel Desktop
 
 To install PIXEL Desktop, run pideploy-gui-install. Next time you login via RDP you will have a full desktop session with audio support.
 $ pideploy-gui-install
@@ -83,6 +82,13 @@ You can run letsencrypt to get rid of the warning if you have a (sub)domain avai
 
 # For Generic Purpose
 $ sudo pihole uninstall
+
+
+$ sudo apt update; sudo apt upgrade
+$ sudo apt install btop inxi
+
+# Install bash:
+curl -sSL https://raw.githubusercontent.com/urbancompasspony/bashrc/main/install.sh | bash
 
 curl -sSL m.linuxuniverse.com.br | bash
 
