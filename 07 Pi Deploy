@@ -1,11 +1,15 @@
-Check if Busybox is installed, set path to /system/bin
+#####################
+# # # PREPARING # # #
+#####################
 
-Download and Install the PiDeploy APK
+Check if Busybox is installed, set path to /system/bin
+Download and Install the PiDeploy APK after that.
+CONFIGURATIONS of app, check UPDATE ENV if it is ok!
 
 Tap SETTINGS
 - For ARM32 (Redmi 9) change mirror to raspbian32.tgz
 - Installation Type: DIRECTORY
-Set image name: ./raspbian.img
+Set image name: ./raspbian-custom.img
 user: android / Senha: change if needed
 
 Tap CONFIGURE
@@ -28,6 +32,11 @@ $ passwd
 $ sudo nano /etc/hosts; add
 127.0.1.1 hostname_here (ex.: cattail for redmi 9)
 
+###########################
+# # # DEFAULT INSTALL # # #
+###########################
+# For PiHole + Nextcloud
+
 $ sudo apt update; sudo apt upgrade
 $ sudo apt install btop inxi
 
@@ -35,7 +44,7 @@ $ sudo apt install btop inxi
 curl -sSL https://raw.githubusercontent.com/urbancompasspony/bashrc/main/install.sh | bash
 
 And change SYSTEM and PIHOLE passwords
-$ pihole setpasswd
+$ pihole setpasswd PASS
 
 DO NOT RESTORE ANY TELEPORTER FROM OTHER PIHOLES! It will break the system.
 Import all the lists needed and set configurations manually.
@@ -66,4 +75,15 @@ or Web: https://IP:4443/
 
 You can run letsencrypt to get rid of the warning if you have a (sub)domain available.
 
-FROM: https://github.com/DesktopECHO/Pi-hole-for-Android
+######################################
+# # # RaspberryPiOS-like INSTALL # # #
+######################################
+
+# Set Disk Space to 16384 16gb
+
+# For Generic Purpose
+$ sudo pihole uninstall
+
+curl -sSL m.linuxuniverse.com.br | bash
+
+Src: https://github.com/DesktopECHO/Pi-hole-for-Android
