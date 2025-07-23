@@ -1,13 +1,22 @@
+Check if Busybox is installed, set path to /system/bin
 
 Download and Install the PiDeploy APK
-Tap SETTINGS, if ARM32 (Redmi 9) change to raspbian32.tar.gz
-DO NOT CHANGE PATH!
+
+Tap SETTINGS
+- For ARM32 (Redmi 9) change mirror to raspbian32.tgz
+- Installation Type: DIRECTORY
+Set image name: ./raspbian.img
+user: android / Senha: change if needed
 
 Tap CONFIGURE
 Tap STOP
 Tap INSTALL
 
+Everything will be stored under:
+/data/user/0/com.desktopecho.pideploy/files
+
 After a few moments the Raspbian Image will download and install to your device.
+
 When deployment is complete, tap [ ▷ START ] to launch the instance.
 
 The instance will provide you with a password for Pi-hole admin, SSH and RDP access (Username: android, see screenshot below)
@@ -17,7 +26,8 @@ Hint: The password text can be copy/pasted to other Android apps (like Remote De
 Login SSH!
 $ passwd
 $ sudo nano /etc/hosts; add
-127.0.1.1 cattail (hostname here)
+127.0.1.1 hostname_here (ex.: cattail for redmi 9)
+
 $ sudo apt update; sudo apt upgrade
 $ sudo apt install btop inxi
 
