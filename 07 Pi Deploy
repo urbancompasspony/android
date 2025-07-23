@@ -79,8 +79,7 @@ You can run letsencrypt to get rid of the warning if you have a (sub)domain avai
 ######################################
 # WITHOUT PiHole or Nextcloud!
 # Generic Server Mode
-
-# Set Disk Space to 16384 (16 gb)
+- Installation Type: ARQUIVO so DON'T need to set Disk Space above 2gb.
 
 # For Generic Purpose
 $ sudo pihole uninstall
