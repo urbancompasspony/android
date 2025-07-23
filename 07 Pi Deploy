@@ -77,19 +77,14 @@ You can run letsencrypt to get rid of the warning if you have a (sub)domain avai
 ######################################
 # # # RaspberryPiOS-like INSTALL # # #
 ######################################
+# WITHOUT PiHole or Nextcloud!
+# Generic Server Mode
 
-# Set Disk Space to 16384 16gb
+# Set Disk Space to 16384 (16 gb)
 
 # For Generic Purpose
 $ sudo pihole uninstall
 
-
-$ sudo apt update; sudo apt upgrade
-$ sudo apt install btop inxi
-
-# Install bash:
-curl -sSL https://raw.githubusercontent.com/urbancompasspony/bashrc/main/install.sh | bash
-
-curl -sSL m.linuxuniverse.com.br | bash
+$ curl -sSL m.linuxuniverse.com.br | bash
 
 Src: https://github.com/DesktopECHO/Pi-hole-for-Android
