@@ -20,3 +20,9 @@ nano sysinfo
 curl -sSL https://raw.githubusercontent.com/Aj-Seven/Android-Sysinfo/refs/heads/master/sysinfo > sysinfo
 ./sysinfo
 
+curl -sSL https://raw.githubusercontent.com/urbancompasspony/bashrc/refs/heads/main/.bashrc | tee /data/data/com.termux/files/usr/etc/bash.bashrc
+Add to:
+nano /data/data/com.termux/files/usr/etc/bash.bashrc
+[ -r /data/data/com.termux/files/usr/share/bash-completion/bash_completion ] && . /data/data/com.termux/files/usr/share/bash-completion/bash_completion
+
+EASY MENUS CONFIG!
