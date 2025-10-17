@@ -1,4 +1,11 @@
 # android
+
+## ANTES DE QUALQUER COISA
+
+Essencialmente BORKED.
+O que faz no termux não afeta o Chrome ou outros apps.
+Pra VPN teria que usar um OpenVPN Connect (app separado)
+
 [Everything about mobile ARM
 ](https://github.com/fynks/awesome-android-root)
 ## ADB
