@@ -10,7 +10,7 @@ ssh u0_a227@172.20.0.109 -p 8022
 # pkg upgrade
 Mark YES for all changes
 
-# pkg install root-repo x11-repo proot-distro sudo arp-scan wget git openssh busybox htop docker net-tools iperf3 whois traceroute inxi openvpn curl nmap lz4 cmatrix yq iproute2 termux-api
+# pkg install root-repo x11-repo proot-distro sudo arp-scan wget git openssh busybox htop docker net-tools iperf3 whois traceroute inxi openvpn curl nmap lz4 cmatrix yq iproute2 termux-api sshpass
 
 # pkg install qemu-user-aarch64 qemu-user-arm qemu-user-i386 qemu-user-x86-64 qemu-utils qemu-common qemu-system-x86_64-headless
 
