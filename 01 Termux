@@ -1,5 +1,12 @@
 # Install from F-Droid or GitHub!
 
+pkg install openssh
+sshd
+passwd
+ip a
+
+ssh u0_a227@172.20.0.109 -p 8022
+
 # pkg upgrade
 Mark YES for all changes
 
